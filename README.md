@@ -28,8 +28,42 @@ Berikut tahapan yang sudah dilakukan dalam mengakses server, menginstall web ser
 
 ## 🚀 **B. Proses Instalasi Web Server & Uji Coba**
 
-### **1. Menyiapkan Debian Server:**
+###### *1. Menyiapkan Debian Server:*
 
 - *siapkan server Debian yang sudah punya IP address dan bisa diakses dari jaringan LAN*
 -  *atur respository agar bisa digunakan untuk instalasi software*
 -  *coba akses server lewat SSH pakai CMD dan win SCP untuk memastikan koneksinya sudah berfungsi*
+###### *2. Perbarui semua paket agar Debian siap digunakan, Menggunakan:*
+
+```bash
+apt update && apt upgrade
+```
+
+---
+
+###### *3.  pasang web server Nginx, Menggunakan :*
+
+```bash
+apt install nginx
+```
+
+---
+
+###### *4. jalankan dan aktifkan otomatis saat boot, Menggunakan:*
+
+```bash
+systemctl start nginx
+systemctl enable nginx
+```
+
+---
+
+###### *5. Cek status:*
+
+```bash
+systemctl status nginx
+```
+
+---
+
+###### *6. Jika status nya active (running), Berarti Nginx sudah berjalan*
