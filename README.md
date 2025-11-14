@@ -1,20 +1,22 @@
 # 🌐 **Laporan Instalasi & Konfigurasi Web Server Nginx**
 
-### *Dengan Dokumentasi Proses, Pengujian, & Kendala*
+#### *Dengan Dokumentasi Proses, Pengujian, & Kendala*
 
 ---
-# 👥 **A. Anggota Kelompok**
+## 👥 **A. Anggota Kelompok**
 
 - *Desi Novta Azizah* - bagian penulisan dan penyusunan laporan 
 - *Fajri Abdul Rojak* - bagian penugumpulan data
 - *Saskia Purnama Sari* - bagian penulisan dan penyusunan laporan
 - *Windi Rosdianti* - bagian pengecekan dan penyusunan laporan 
+---
 
-# 🎯 **B. Tujuan Pembuatan Proyek**
+
+## 🎯 **B. Tujuan Pembuatan Proyek**
 
 memahami dan menerapkan konsep dasar yang telah dipelajari selama pembelajaran, sehingga teori dapat diimplementasikan dalam bentuk karya nyata. Dan melatih kemampuan praktis seperti perancangan, konfigurasi, dan penyusunan proyek secara sistematis sesuai prosedur yang benar
 
-# 🏆** C. Pembahasan
+## 🏆 **C. Pembahasan**
 
 1. Apa itu Nginx?
      Nginx (dibaca Egine-X) adalah web server open-source yang ringan dan efisien, Nginx juga berfungsi sebagai reverse proxy, load balancer, dan proxy email. Untuk menjalankan script PHP secara optimal Nginx biasanya dipadukan dengan PHP-FPM (FastCGI Process Manager), yaitu metode eksekusi php yang memisahkan proses dari server web, sehingga meningkatkan performa dan fleksibilitas konfigurasi ideal untuk sistem berskala tinggi dan multi-user.
@@ -67,7 +69,7 @@ systemctl status nginx
 ---
 
 ###### *6. Jika status nya active (running), Berarti Nginx sudah berjalan*
-###### *7. Buka Web Browser dan akses:
+###### *7. Buka Web Browser dan akses:*
 
 ```bash
 https:// ip-server 
@@ -75,7 +77,7 @@ https:// ip-server
 
 ---
 
-###### *8. Jika muncul halaman "Welcome To Nginx", berarti server aktif.🎉
+###### *8. Jika muncul halaman "Welcome To Nginx", berarti server aktif.🎉*
 
 ###### *agar file bisa berjalan pasang/install .php dan modul pendukung, dengan:
 ```bash
