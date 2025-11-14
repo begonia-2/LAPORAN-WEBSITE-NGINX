@@ -67,3 +67,26 @@ systemctl status nginx
 ---
 
 ###### *6. Jika status nya active (running), Berarti Nginx sudah berjalan*
+###### *7. Buka Web Browser dan akses:
+
+```bash
+https:// ip-server 
+```
+
+---
+
+###### *8. Jika muncul halaman "Welcome To Nginx", berarti server aktif.🎉
+
+###### *agar file bisa berjalan pasang/install .php dan modul pendukung, dengan:
+```bash
+apt install php8.4-fpm php8.4-cli
+```
+
+###### *jika sudah periksa php-fpm sudah aktif atau belum, menggunakan:
+
+```bash
+systemctl status php8.4-fpm
+```
+
+---
+
