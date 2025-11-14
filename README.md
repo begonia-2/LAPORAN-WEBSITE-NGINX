@@ -6,11 +6,8 @@
 # 👥 **A. Anggota Kelompok**
 
 - *Desi Novta Azizah* - bagian penulisan dan penyusunan laporan 
-
 - *Fajri Abdul Rojak* - bagian penugumpulan data
-
 - *Saskia Purnama Sari* - bagian penulisan dan penyusunan laporan
-
 - *Windi Rosdianti* - bagian pengecekan dan penyusunan laporan 
 
 # 🎯 **B. Tujuan Pembuatan Proyek**
@@ -24,3 +21,15 @@ memahami dan menerapkan konsep dasar yang telah dipelajari selama pembelajaran, 
 ---
 2. Apa itu SSL/TLS?
       SSL/TLS adalah teknologi yang membuat koneksi antara server dan pengguna jadi aman,  karena data yang dikirim akan di enkripsi (disamarkan) agar tidak mudah dibaca orang lain.
+   
+## 📌 **A. Tahapan Installasi  WebServer hingga Uji Coba**
+
+Berikut tahapan yang sudah dilakukan dalam mengakses server, menginstall web server, hingga tahap uji coba:👇🏻
+
+## 🚀 **B. Proses Instalasi Web Server & Uji Coba**
+
+### **1. Menyiapkan Debian Server:**
+
+- *siapkan server Debian yang sudah punya IP address dan bisa diakses dari jaringan LAN*
+-  *atur respository agar bisa digunakan untuk instalasi software*
+-  *coba akses server lewat SSH pakai CMD dan win SCP untuk memastikan koneksinya sudah berfungsi*
