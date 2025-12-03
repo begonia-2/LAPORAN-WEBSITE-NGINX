@@ -415,8 +415,9 @@ Terakhir, saya me-restart Nginx dan mengakses IP server melalui browser. Jika ha
 
 # 🏆 **HASIL INSTALASI DAN KONFIGURASI KELOMPOK BEGONIA**
 
-```bash
-https://youtu.be/VqO97GPCHWg?si=wrorCQHulF_sonPJ
-```
+# ▪️ Dokumentasi Video Pengerjaan
+Seluruh proses pengerjaan telah direkam dan diunggah ke YouTube.
 
+**Link Video YouTube:**
 
+[![Thumbnail Video Pengerjaan](https://img.youtube.com/vi/1-qlNtQS1OA/0.jpg)](https://youtu.be/VqO97GPCHWg?si=wrorCQHulF_sonPJ)
